@@ -18,7 +18,7 @@ db_conn = connections.Connection(
 
 )
 output = {}
-table = 'employee'
+table = 'projectdb'
 
 
 @app.route("/", methods=['GET', 'POST'])
@@ -28,7 +28,7 @@ def home():
 
 @app.route("/about", methods=['POST'])
 def about():
-    return render_template('www.intellipaat.com')
+    return render_template('www.parthiban.com')
 
 
 @app.route("/addemp", methods=['POST'])
